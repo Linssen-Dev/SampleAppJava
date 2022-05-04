@@ -12,6 +12,7 @@ public class SpeakerServiceImpl implements SpeakerService {
 
     @Override
     public List<Speaker> findAll(){
+
         return repository.findAll();
     }
 }
