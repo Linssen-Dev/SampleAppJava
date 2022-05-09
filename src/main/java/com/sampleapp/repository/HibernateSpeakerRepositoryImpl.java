@@ -1,6 +1,7 @@
 package com.sampleapp.repository;
 
 import com.sampleapp.model.Speaker;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +11,7 @@ import java.util.List;
  * Repository Data Access Layer
  *
  */
+@Repository("speakerRepository")
 public class HibernateSpeakerRepositoryImpl implements SpeakerRepository {
 
     @Override
